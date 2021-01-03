@@ -11,6 +11,8 @@ Currently implemented statistics (for each IP address seen):
 - Packets Total
 - Bytes Total / Port (only for destination IP) !TODO!
 
+*IMPORTANT*: this script uses dpkt which doesn't work on Python 3.9+. Run it on 3.8 or lower.
+
 How to install
 --------------
 
