@@ -174,7 +174,7 @@ def main():
   if 'stats' in args.mode:
     # display the resulting statitistics
     print('Total packets read: {}'.format(stats_total_packets))
-    print('Total execution time (sec): {0:.2}'.format(end - start))
+    print('Total execution time: {}'.format(PrettyRelativeTime(end - start)))
     # TODO: check args before calling
     print_stat(args.column,args.top)
 
